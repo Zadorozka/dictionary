@@ -1,0 +1,47 @@
+txt = input().lower()
+def slovnik(text):
+    text = text.replace("
+    text = text. replace (
+    a = text.split()
+    spis = []
+    for i in a:
+       if len(i) > 3:
+          spis.append(i)
+    spis = set (spis)
+    spis = list(spis)
+    spis.sort ()
+    b = "\n". join(spis)
+    return b
+print (slovnik(txt))
+"""def txt = input(). lower ()
+txt = txt. replace ("
+txt = txt. replace ("
+txt = txt.split()
+def maxlen (text):
+    text = set (text)
+    text = list(text)
+    text.sort (key=len)
+    text.reverse()
+    return "\n".join(text [0:5])
+print (maxlen(txt))
+"""
+"""def max_freq(List):
+   count = 0
+   word = List[el
+   for i in List:
+       cur = List.count(1)
+       if cur > count and len(1) > 3:
+          count = cup
+          word = i
+         
+
+
+   for i in range(List.count (word)):
+       mText.remove (word)
+   return word
+While True:
+    mText = inputO.split(
+    for i in range (5):
+        print (max_freq(mText), end="\n")
+print ("\tTon5 найчастіших")
+"""
